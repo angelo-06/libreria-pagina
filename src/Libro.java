@@ -6,4 +6,7 @@ public class Libro{
 		this.titulo = titulo;
 		this.precio = precio;
 	}
+	public double precioConDescuento(double pct){
+		return precio * (1);
+	}
 }
